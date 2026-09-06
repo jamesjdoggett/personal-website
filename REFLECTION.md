@@ -1,0 +1,2 @@
+1. The "test_page_lists_at_least_five_items" test confirms that the home page displays at least five items. However, it would not catch whether the items contain the correct names or subject. 
+2. I would only need to edit the one base.html file. If I were to not use base.html, I would have to individually edit all four files because each one would contain its own copy of the navigation bar. 
