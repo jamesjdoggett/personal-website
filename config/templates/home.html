@@ -1,2 +1,15 @@
 <h1>Home</h1>
-<p>Welcome to my personal website.</p>
+<p>Some of my courses:</p>
+
+<ul>
+    {% for item in items %}
+        <li>
+            {{ item.name }} -
+            {% if item.completed %}
+                Completed
+            {% else %}
+                In progress
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>
